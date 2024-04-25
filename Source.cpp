@@ -22,5 +22,11 @@ T half(T value)
 
 int main()
 {
-	
+	int a = 205;
+	float b = 53.03;
+	double c = 2.93;
+	cout << half(a) << endl;
+	cout << half(b) << endl;
+	cout << half(c) << endl;
+	return(0);
 }
